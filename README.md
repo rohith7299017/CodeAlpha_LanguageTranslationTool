@@ -33,7 +33,7 @@ Users can enter text, choose source and target languages, see the translated tex
 1. **Navigate to the project folder**
 
    ```bash
-   cd "d:\Software_Workspace\CodeAlpha\Translation"
+   cd "d:\Translation"
    ```
 
 2. **Create and activate a virtual environment** (recommended)
@@ -84,20 +84,5 @@ Users can enter text, choose source and target languages, see the translated tex
 
 ---
 
-## Notes
 
-- **Language codes** follow standard two-letter language codes used by MyMemory (for example: `en`, `hi`, `es`, `fr`, `de`, `ar`, `zh`, `ja`).
-- **Text-to-speech**:
-  - Runs entirely in the browser via `window.speechSynthesis`.
-  - Actual voice availability may vary between browsers and operating systems.
-- If the translation API fails (network error, invalid key, etc.), a friendly error message is shown in the UI.
-
----
-
-## Customization Ideas
-
-- Add more languages to the dropdowns.
-- Persist the last-used languages using `localStorage`.
-- Show detected source language when using auto detection.
-- Add character counters or input limits.
 
